@@ -33,7 +33,7 @@
 * Receives nicely-formatted data from Main Server
 * Routes data through to the right places
   * Send appropriate data to the "visualization" controller, so it can update the user display accordingly
-  * Cache some data in the local SQLite db? 
+  * Cache some data in a local database/CSV/storage? 
   * any other parts of the app we want can subscribe to some data from the drone, and a service in our app will be responsible to get pass the data to the right function
 * Handles user input: button clicks, voice commands, etc?
   * a UI controller can manipulate the UI views or call one of the app's services to send a request to the Main Server (just functions calling other functions that send a specific TCP request )
