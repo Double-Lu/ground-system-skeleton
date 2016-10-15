@@ -4,14 +4,14 @@
 ## Main Server
 ### Any back-end web language: Java, NodeJS, Python, Ruby, C#
 * Receives a data stream from the UAV
-... Process these as 2D arrays, [  [x0, y0, z0 ] , [x1, y1, z1] , [x2, y2, z2],  ... , [xi, yi, zi] , ... ]
+...* Process these as 2D arrays, [  [x0, y0, z0 ] , [x1, y1, z1] , [x2, y2, z2],  ... , [xi, yi, zi] , ... ]
 * Sends data to a service in the user-facing application
-... After processing data from UAV, we send the **relevant** data, formatted to our preference, to the mobile app
+...* After processing data from UAV, we send the **relevant** data, formatted to our preference, to the mobile app
 
 * Receives requests from a service in the user-facing application
-... Define routes in our server for things like "Go <coordinates>" and "Inspect <coordinates>" and "Return to base", etc..? We can think of more
+...* Define routes in our server for things like "Go <coordinates>" and "Inspect <coordinates>" and "Return to base", etc..? We can think of more
 * Sends commands to a service on the UAV
-... The format will be defined by ROS conventions in packages we use or create ourselves, because ROS controls this part of the system
+...* The format will be defined by ROS conventions in packages we use or create ourselves, because ROS controls this part of the system
 
 
 
@@ -19,9 +19,9 @@
 ## On-board Software (ROS)
 ### ROS Packages can be written in Python and C++ (as far as i know...)
 * Receives directives from the Main Server, but will operate autonomously, obviously with some sort of "killswitch" implemented so it doesn't try to take over the planet
-... The format will be defined by the ROS packages we use or create
+...* The format will be defined by the ROS packages we use or create
 * Streams sensor data
-... The format will be defined by the ROS packages we use or create
+...* The format will be defined by the ROS packages we use or create
 
 ## User Interface (Mobile or Desktop App)
 ### Any mobile application framework: Xamarin (C#, cross-platform), React Native (JavaScript, cross-platorm), Android Native (Java), iOS Native (Swift or Objective-C?), Windows Native (C#, we're not doing this) 
