@@ -1,0 +1,8 @@
+prefix=/home/tyler/Desktop/ground-system-skeleton/drone-app/devel
+
+Name: drone_test
+Description: Description of drone_test
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/tyler/Desktop/ground-system-skeleton/drone-app/devel/lib 
+Requires: 

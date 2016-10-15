@@ -1,0 +1,2 @@
+drone_test
+-DCATKIN_DEVEL_PREFIX=/home/tyler/Desktop/ground-system-skeleton/drone-app/devel -DCMAKE_INSTALL_PREFIX=/home/tyler/Desktop/ground-system-skeleton/drone-app/install -G Unix Makefiles

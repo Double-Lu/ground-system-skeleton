@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC   -L/opt/gtk/lib -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o  -L/home/tyler/Desktop/ground-system-skeleton/drone-app/build/gtest/src -lpthread -Wl,-rpath,/home/tyler/Desktop/ground-system-skeleton/drone-app/build/gtest/src 
