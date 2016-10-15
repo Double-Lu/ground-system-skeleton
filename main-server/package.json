@@ -1,0 +1,15 @@
+{
+  "name": "uas-ground-system",
+  "version": "1.0.0",
+  "description": "the main server component of the UAV ground system, interacts with drone application and user application",
+  "main": "app.js",
+  "scripts": {
+    "test": "test-uav"
+  },
+  "author": "Maria Perez, Jacky Lu, Claudia Seidel, Juan Carlos Hernandez, Tyler Thome",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "pg": "^6.1.0"
+  }
+}
