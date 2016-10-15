@@ -13,7 +13,7 @@
 * Sends commands to a service on the UAV
 ...* The format will be defined by ROS conventions in packages we use or create ourselves, because ROS controls this part of the system
 
-
+----
 
 
 ## On-board Software (ROS)
@@ -22,6 +22,8 @@
 ...* The format will be defined by the ROS packages we use or create
 * Streams sensor data
 ...* The format will be defined by the ROS packages we use or create
+
+-----
 
 ## User Interface (Mobile or Desktop App)
 ### Any mobile application framework: Xamarin (C#, cross-platform), React Native (JavaScript, cross-platorm), Android Native (Java), iOS Native (Swift or Objective-C?), Windows Native (C#, we're not doing this) 
