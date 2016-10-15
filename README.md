@@ -4,7 +4,7 @@
 ## Main Server
 ### Any back-end web language: Java, NodeJS, Python, Ruby, C#
 * Receives a data stream from the UAV
-  * Process these as 2D arrays, [  [x0, y0, z0 ] , [x1, y1, z1] , [x2, y2, z2],  *   , [xi, yi, zi] ,  *  ]
+  * Process these as 2D arrays, [  [x0, y0, z0 ] , [x1, y1, z1] , [x2, y2, z2], ... , [xi, yi, zi] , ... ]
 * Sends data to a service in the user-facing application
   * After processing data from UAV, we send the **relevant** data, formatted to our preference, to the mobile app
 
@@ -18,7 +18,7 @@
 
 ## On-board Software (ROS)
 ### ROS Packages can be written in Python and C++ (as far as i know...)
-* Receives directives from the Main Server, but will operate autonomously, obviously with some sort of "killswitch" implemented so it doesn't try to take over the planet
+* Receives directives from the Main Server, but will operate autonomously, obviously with some sort of "killswitch"
   * The format will be defined by the ROS packages we use or create
 * Streams sensor data
   * The format will be defined by the ROS packages we use or create
