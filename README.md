@@ -8,7 +8,6 @@
   * Process these as 2D arrays, eg. position: [  [x0, y0, z0 ] , [x1, y1, z1] , [x2, y2, z2], ... , [xi, yi, zi] , ]
 * Sends data to a service in the user-facing application
   * After processing data from UAV, we send the **relevant** data, formatted to our preference, to the mobile app
-
 * Receives requests from a service in the user-facing application
   * Define routes in our server for things like "Go \<coordinates\>" and "Inspect \<coordinates\>" and "Return to base", etc.
 * Sends commands to a service on the UAV
@@ -34,6 +33,7 @@
 ### Any front-end web application framework/toolset: Angular, Ember, Polymer, React, etc. or just plain JavaScript
 
 * Receives nicely-formatted data from Main Server
+  * Preprocessed on server-side, so our application consumes data that can be used directly in UI/UX modules, eg. { 'change_altitude':-0.32, altitude_display: '231.89 feet' }
 * Routes data through to the right places
   * Send appropriate data to the data visualization controller, so it can update the user display accordingly
   * Cache some data in a local database/CSV/storage
