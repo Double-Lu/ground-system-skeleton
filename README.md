@@ -3,7 +3,7 @@
 ---
 
 ## Main Server
-### Any back-end web language: Java, NodeJS, Python, C#, Ruby, PHP, etc.
+### Any back-end web language: Java, <span style="background-color:green;">NodeJS</span>, Python, C#, Ruby, PHP, etc.
 * Receives a data stream from the UAV
   * Process these as 2D arrays, [  [x0, y0, z0 ] , [x1, y1, z1] , [x2, y2, z2], ... , [xi, yi, zi] , ... ]
 * Sends data to a service in the user-facing application
@@ -27,7 +27,7 @@
 ---
 
 ## User Interface (Mobile or Desktop App)
-### Any mobile application framework: Xamarin (C#, cross-platform), React Native (JavaScript, cross-platorm), Android Native (Java), iOS Native (Swift or Objective-C?), Windows Native (C#, we're not doing this) 
+### Any mobile application framework: <span style="background-color:green;">Xamarin (C#, cross-platform)</span>, React Native (JavaScript, cross-platorm), Android Native (Java), iOS Native (Swift or Objective-C?), Windows Native (C#, we're not doing this) 
 #### and/or
 ### Any desktop application framework: Qt (C++), GTK+/GTK# (cross-platform, mobile too), JavaFX, Tkinter (Python)
 #### and/or
